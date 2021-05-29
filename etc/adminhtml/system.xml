@@ -1,0 +1,36 @@
+<!-- This file has been commented as this functionality is not available right now -->
+
+<!---<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="csv_import" sortOrder="999" translate="label">
+            <label>CSV Import</label>
+        </tab>
+        <section id="csv_import_settings" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+            <label>Settings</label>
+            <tab>csv_import</tab>
+            <resource>WundermanThompson_Import::config_wundermanthompson_import</resource>
+            <group id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+                <label>General</label>
+                <field id="path" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="20" translate="label" type="text">
+                    <label>CSV Path</label>
+                    <comment>CSV Path where files are stored</comment>
+                </field>
+                <field id="host" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="21" translate="label" type="text">
+                    <label>SFTP Host</label>
+                </field>
+                <field id="port" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="22" translate="label" type="text">
+                    <label>SFTP Port</label>
+                </field>
+                <field id="user" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="23" translate="label" type="text">
+                    <label>SFTP User</label>
+                </field>
+                <field id="password" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="24" translate="label" type="obscure">
+                    <label>SFTP Password</label>
+                </field>
+               </group>
+        </section>
+    </system>
+</config>-->
+
+
