@@ -1,10 +1,6 @@
 {
   "name": "wundermanthompson/module-import",
   "description": "Module to import customer using CSV and JSON files",
-  "require": {
-    "org/foo": "^1.2.3",
-    "org/bar": "dev-master"
-  },
   "repositories": [
     {
       "type": "composer",
