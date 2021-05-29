@@ -12,31 +12,31 @@ composer require wundermanthompson/module-import dev-master
 ```
 
 ```bash
-bin/magento -dmemory-limit=-1 module:enable WundermanThompson_Import
+bin/magento module:enable WundermanThompson_Import
 ```
 
 ```bash
-bin/magento -dmemory-limit=-1 setup:di:compile -vvv
+bin/magento setup:di:compile
 ```
 
 Deploy static content
 ```bash
-bin/magento -dmemory-limit=-1 setup:static-content:deploy -s "standard"
+bin/magento setup:static-content:deploy -s "standard"
 ```
 
 Flush Magento cache
 ```bash
-bin/magento -dmemory-limit=-1 cache:flush
+bin/magento cache:flush
 ```
 
 Upgrade the Magento application
 ```bash
-bin/magento -dmemory_limit=-1 setup:upgrade
+bin/magento setup:upgrade 
 ```
 
 Check if you're on developer or production mode
 ```bash
-bin/magento -dmemory-limit=-1 deploy:mode:show
+bin/magento deploy:mode:show
 ```
 
 Set appropriate permissions
