@@ -1,17 +1,6 @@
 {
   "name": "wundermanthompson/module-import",
   "description": "Module to import customer using CSV and JSON files",
-   "minimum-stability": "stable",
-  "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://repo.packagist.com/wunderman-thompson/"
-    },
-    {
-      "packagist": false
-    }
-  ],
   "type": "magento2-module",
   "version": "2.1.0",
   "license": [
