@@ -5,8 +5,15 @@ This module provides ability to import Customers using CSV or JSON file.
 #Installation 
 These commands must be executed at the root level of your Magneto 2 project
 
-Install the WundermanThompson Import module :::
+Prerequisites needed before initiating with the installation::
+```bash
+composer config minimum-stability dev
+composer config prefer-stable true
+composer config repositories.private-packagist composer https://repo.packagist.com/wunderman-thompson/
+composer config repositories.packagist.org false
+```
 
+Install the WundermanThompson Import module
 ```bash
 composer require wundermanthompson/module-import dev-master
 ```
