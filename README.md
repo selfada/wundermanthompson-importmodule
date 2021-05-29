@@ -15,7 +15,7 @@ composer config repositories.packagist.org false
 
 Install the WundermanThompson Import module
 ```bash
-composer require wundermanthompson/module-import dev-master
+composer require wundermanthompson/module-import
 ```
 Remove old generated folder and cache
 ```bash
