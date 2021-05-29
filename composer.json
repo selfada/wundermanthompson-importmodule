@@ -1,13 +1,15 @@
 {
   "name": "wundermanthompson/module-import",
   "description": "Module to import customer using CSV and JSON files",
+   "minimum-stability": "stable",
+  "prefer-stable": true,
   "repositories": [
     {
       "type": "composer",
-      "url": "https://repo.packagist.com/selfada/"
+      "url": "https://repo.packagist.com/wunderman-thompson/"
     },
     {
-      "packagist.org": false
+      "packagist": false
     }
   ],
   "type": "magento2-module",
