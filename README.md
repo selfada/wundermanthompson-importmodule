@@ -7,6 +7,9 @@ These commands must be executed at the root level of your Magneto 2 project
 
 Install the WundermanThompson Import module :::
 
+```bash
+composer require wundermanthompson/module-import dev-master
+```
 
 ```bash
 bin/magento -dmemory-limit=-1 module:enable WundermanThompson_Import
@@ -34,7 +37,7 @@ bin/magento -dmemory_limit=-1 setup:upgrade
 Check if you're on developer or production mode
 ```bash
 bin/magento -dmemory-limit=-1 deploy:mode:show
-````
+```
 
 Set appropriate permissions
 ```bash
