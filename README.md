@@ -10,11 +10,17 @@ Install the WundermanThompson Import module :::
 ```bash
 composer require wundermanthompson/module-import dev-master
 ```
+Remove old generated folder and cache
+```bash
+rm -rf generated/ var/cache
+```
 
+Enable module
 ```bash
 bin/magento module:enable WundermanThompson_Import
 ```
 
+Regenerate generated and compiler related resources
 ```bash
 bin/magento setup:di:compile
 ```
@@ -31,7 +37,7 @@ bin/magento cache:flush
 
 Upgrade the Magento application
 ```bash
-bin/magento setup:upgrade 
+bin/magento s:up --keep-generated
 ```
 
 Check if you're on developer or production mode
