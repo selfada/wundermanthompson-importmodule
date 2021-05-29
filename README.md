@@ -30,14 +30,14 @@ Deploy static content
 bin/magento setup:static-content:deploy -s "standard"
 ```
 
+Upgrade the DB schema
+```bash
+bin/magento s:up --keep-generated
+```
+
 Flush Magento cache
 ```bash
 bin/magento cache:flush
-```
-
-Upgrade the Magento application
-```bash
-bin/magento s:up --keep-generated
 ```
 
 Check if you're on developer or production mode
